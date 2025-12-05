@@ -1,9 +1,36 @@
-body{ 
-background-color: #9fcbd8;
+body {
+  background-color: #050a30;
+  color: #5a5752;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.container{ 
-    background-color:#050a30;
-    border: 20px;
-    width: 100px;
-    height: 100px;
+.container {
+  display: grid;
+  justify-items: center;
+  background-color: #050a30;
+  width: 500px;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 6px;
+
+}
+
+img {
+  position: relative;
+}
+#Simular{
+border: 0px;
+border-radius:3px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ width: 100px;
+ height: 43px;
+ background-color: #0b1244;
+ color: white
+}
+.faixa{ 
+    background-color: #0f1966;
+    height: 60px;
+    width: 1260px;
+    top: 1000px;
 }
