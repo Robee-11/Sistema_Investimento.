@@ -1,36 +1,105 @@
 body {
-  background-color: #050a30;
-  color: #5a5752;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #04042c;
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+
 }
+
 .container {
   display: grid;
   justify-items: center;
-  background-color: #050a30;
+  background-color: #04042c;
   width: 500px;
   justify-content: center;
   margin: 0 auto;
   border-radius: 5px;
   margin-top: 50px;
   padding: 6px;
-
 }
 
 img {
   position: relative;
 }
-#Simular{
-border: 0px;
-border-radius:3px;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- width: 100px;
- height: 43px;
- background-color: #0b1244;
- color: white
+
+.faixa {
+  background-color: #0f1966;
+  height: 70px;
+  width: 100%;        
+  border-radius: 0;    
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
-.faixa{ 
-    background-color: #0f1966;
-    height: 60px;
-    width: 1260px;
-    top: 1000px;
+
+
+#Simular {
+  border: 0;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100px;
+  height: 50px;
+  background-color: #0b1244;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;  
+  justify-content: center; 
+  text-align: center;
+   text-decoration: none;
 }
+#Simular:hover{
+  background-color:  #050f5b;
+}
+.Formulario{
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  background-color:  #0b1244;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 3px;
+}
+#Voltar {
+  border: 0;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 80px;
+  height: 50px;
+  background-color: #0b1244;
+  color: white;
+  font-size: 14px;
+  display: grid;
+  align-items: center;  
+  justify-content: center; 
+  text-align: center;
+   text-decoration: none;
+}
+#Voltar:hover{ 
+background-color:  #050f5b;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 80px;
+  height: 50px;
+  background-color: #0b1244;
+  color: white;
+  font-size: 14px;
+  display: grid;
+  align-items: center;  
+  justify-content: center; 
+  text-align: center;
+   text-decoration: none;
+}
+button:hover{ 
+  background-color:  #050f5b;
+} 
+
